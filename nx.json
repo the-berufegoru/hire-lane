@@ -1,0 +1,50 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "production": [
+      "default",
+      "!{projectRoot}/.eslintrc.json",
+      "!{projectRoot}/eslint.config.js",
+      "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
+      "!{projectRoot}/tsconfig.spec.json",
+      "!{projectRoot}/jest.config.[jt]s",
+      "!{projectRoot}/src/test-setup.[jt]s",
+      "!{projectRoot}/test-setup.[jt]s"
+    ],
+    "sharedGlobals": []
+  },
+  "targetDefaults": {
+    "@nx/esbuild:esbuild": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    }
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "plugin": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      },
+      "exclude": [
+        "apps/job-finder-e2e/**/*",
+        "apps/authentication-e2e/**/*",
+        "apps/admin-e2e/**/*",
+        "apps/candidate-e2e/**/*",
+        "apps/recruiter-e2e/**/*",
+        "apps/job-e2e/**/*",
+        "apps/application-e2e/**/*",
+        "apps/employee-e2e/**/*",
+        "apps/payroll-e2e/**/*"
+      ]
+    }
+  ],
+  "nxCloudAccessToken": "NTY3MjFiZTItNzFhNy00ZDAyLWE4YmMtM2Q2YzJhN2IzMzgwfHJlYWQtd3JpdGU="
+}
