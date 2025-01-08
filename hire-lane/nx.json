@@ -5,15 +5,16 @@
     "production": [
       "default",
       "!{projectRoot}/.eslintrc.json",
-      "!{projectRoot}/eslint.config.js",
+      "!{projectRoot}/eslint.config.cjs",
       "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
       "!{projectRoot}/tsconfig.spec.json",
       "!{projectRoot}/jest.config.[jt]s",
       "!{projectRoot}/src/test-setup.[jt]s",
       "!{projectRoot}/test-setup.[jt]s"
     ],
-    "sharedGlobals": []
+    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
+  "nxCloudId": "677e2fd65ad9512e8f7ccc16",
   "targetDefaults": {
     "@nx/esbuild:esbuild": {
       "cache": true,
@@ -33,18 +34,7 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": [
-        "apps/job-finder-e2e/**/*",
-        "apps/authentication-e2e/**/*",
-        "apps/admin-e2e/**/*",
-        "apps/candidate-e2e/**/*",
-        "apps/recruiter-e2e/**/*",
-        "apps/job-e2e/**/*",
-        "apps/application-e2e/**/*",
-        "apps/employee-e2e/**/*",
-        "apps/payroll-e2e/**/*"
-      ]
+      "exclude": ["e2e/**/*"]
     }
-  ],
-  "nxCloudAccessToken": "NTY3MjFiZTItNzFhNy00ZDAyLWE4YmMtM2Q2YzJhN2IzMzgwfHJlYWQtd3JpdGU="
+  ]
 }

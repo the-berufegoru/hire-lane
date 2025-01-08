@@ -1,0 +1,14 @@
+export default {
+  displayName: 'hire-lane',
+  preset: './jest.preset.js',
+  testEnvironment: 'node',
+  transform: {
+    '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
+  },
+  moduleFileExtensions: ['ts', 'js', 'html'],
+  coverageDirectory: './coverage/hire-lane',
+  testMatch: [
+    '<rootDir>/src/**/__tests__/**/*.[jt]s?(x)',
+    '<rootDir>/src/**/*(*.)@(spec|test).[jt]s?(x)',
+  ],
+};
