@@ -1,6 +1,6 @@
 {
   "name": "@hire-lane/source",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "start": "npx env-cmd -f ./.env nx serve",
