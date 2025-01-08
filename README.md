@@ -313,8 +313,9 @@ Run the test suite using the following command:
 
 ## 📌 Project Roadmap
 
-- [X] **`Task 1`**: <strike>Set up the project structure and environment.</strike>
-- [ ] **`Task 2`**: Connect to MongoDB and configure the database.
+- [x] **`Task 1`**: <strike>project-setup.</strike>
+- [x] **`Task 2`**: <strike>database-connection.</strike>
+- [ ] **`Task 3`** user-authentication.
 
 ---
 
