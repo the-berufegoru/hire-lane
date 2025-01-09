@@ -1,175 +1,335 @@
+<div align="center">
+<pre>
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║  ██  ██ ██████ ██████ ██████        ██       ██   ██   ██ ██████   ║
+║  ██  ██   ██   ██  ██ ██            ██      ████  ███  ██ ██       ║
+║  ██████   ██   ██████ ████   ██████ ██     ██  ██ ██ █ ██ ████     ║
+║  ██  ██   ██   ██ ██  ██            ██     ██████ ██  ███ ██       ║
+║  ██  ██ ██████ ██  ██ ██████        ██████ ██  ██ ██   ██ ██████   ║
+║                                                                    ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+</pre>
+</div>
 <p align="center">
-    <em><code>🔍 Job Recruitment & HR System RESTful API.</code></em>
+ <em><code>❯ A job portal connecting top talent with great opportunities through seamless job postings and personalized dashboards.</code></em>
 </p>
 <p align="center">
-<img alt="GitHub NX Status" src="https://github.com/the-berufegoru/hire-lane/actions/workflows/ci.yml/badge.svg">
-<img alt="GitHub CodeQL Status" src="https://github.com/the-berufegoru/hire-lane/actions/workflows/codeql.yml/badge.svg">
-<img src="https://img.shields.io/github/license/the-berufegoru/hire-lane?style=flat&color=0080ff" alt="license">
-<img src="https://img.shields.io/github/last-commit/the-berufegoru/hire-lane?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/the-berufegoru/hire-lane?style=flat&color=0080ff" alt="repo-top-language">
-<img src="https://img.shields.io/github/languages/count/the-berufegoru/hire-lane?style=flat&color=0080ff" alt="repo-language-count">
-
-<p>
-<p align="center">
-  <em>Developed with the software and tools below.</em>
+ <img src="https://img.shields.io/github/license/the-berufegoru/hire-lane?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+ <img src="https://img.shields.io/github/last-commit/the-berufegoru/hire-lane?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+ <img src="https://img.shields.io/github/languages/top/the-berufegoru/hire-lane?style=default&color=0080ff" alt="repo-top-language">
+ <img src="https://img.shields.io/github/languages/count/the-berufegoru/hire-lane?style=default&color=0080ff" alt="repo-language-count">
+</p>
+<p align="center"><!-- default option, no dependency badges. -->
 </p>
 <p align="center">
- <img src="https://img.shields.io/badge/esbuild-FFCF00.svg?style=flat&logo=esbuild&logoColor=black" alt="esbuild">
- <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
- <img src="https://img.shields.io/badge/Prettier-F7B93E.svg?style=flat&logo=Prettier&logoColor=black" alt="Prettier">
- <img src="https://img.shields.io/badge/Jest-C21325.svg?style=flat&logo=Jest&logoColor=white" alt="Jest">
- <img src="https://img.shields.io/badge/Axios-5A29E4.svg?style=flat&logo=Axios&logoColor=white" alt="Axios">
- <img src="https://img.shields.io/badge/Sequelize-52B0E7.svg?style=flat&logo=Sequelize&logoColor=white" alt="Sequelize">
- <img src="https://img.shields.io/badge/ESLint-4B32C3.svg?style=flat&logo=ESLint&logoColor=white" alt="ESLint">
- <img src="https://img.shields.io/badge/Lodash-3492FF.svg?style=flat&logo=Lodash&logoColor=white" alt="Lodash">
- <br>
- <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
- <img src="https://img.shields.io/badge/tsnode-3178C6.svg?style=flat&logo=ts-node&logoColor=white" alt="tsnode">
- <img src="https://img.shields.io/badge/Docker-2496ED.svg?style=flat&logo=Docker&logoColor=white" alt="Docker">
- <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?style=flat&logo=GitHub-Actions&logoColor=white" alt="GitHub%20Actions">
- <img src="https://img.shields.io/badge/Nx-143055.svg?style=flat&logo=Nx&logoColor=white" alt="Nx">
- <img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
- <img src="https://img.shields.io/badge/Express-000000.svg?style=flat&logo=Express&logoColor=white" alt="Express">
+ <!-- default option, no dependency badges. -->
 </p>
-<hr>
+<br>
 
-## 🔗 Quick Links
+## 🔗 Table of Contents
 
-> - [📍 Overview](#-overview)
-> - [📦 Features](#-features)
-> - [📂 Repository Structure](#-repository-structure)
-> - [🧩 Modules](#-modules)
-> - [🚀 Getting Started](#-getting-started)
->   - [⚙️ Installation](#️-installation)
->   - [🤖 Running hire-lane](#-running-hire-lane)
->   - [🧪 Tests](#-tests)
-> - [🛠 Project Roadmap](#-project-roadmap)
-> - [🤝 Contributing](#-contributing)
-> - [📄 License](#-license)
-> - [👏 Acknowledgments](#-acknowledgments)
+- [🔗 Table of Contents](#-table-of-contents)
+- [📍 Overview](#-overview)
+- [👾 Features](#-features)
+- [📁 Project Structure](#-project-structure)
+  - [📂 Project Index](#-project-index)
+- [🚀 Getting Started](#-getting-started)
+  - [☑️ Prerequisites](#️-prerequisites)
+  - [⚙️ Installation](#️-installation)
+  - [🤖 Usage](#-usage)
+  - [🧪 Testing](#-testing)
+- [📌 Project Roadmap](#-project-roadmap)
+- [🔰 Contributing](#-contributing)
+- [🎗 License](#-license)
+- [🙌 Acknowledgments](#-acknowledgments)
 
 ---
 
 ## 📍 Overview
 
-<code>Our Job Recruitment & HR System API simplifies job recruitment and HR management.</code>
+<code>❯ REPLACE-ME</code>
 
 ---
 
-## 📦 Features
+## 👾 Features
 
+<code>❯ REPLACE-ME</code>
 
 ---
 
-## 📂 Repository Structure
+## 📁 Project Structure
 
 ```sh
 └── hire-lane/
     ├── .github
     │   └── workflows
-    │       ├── ci.yml
-    │       └── codeql.yml
+    ├── Dockerfile
     ├── LICENSE
     ├── README.md
-    ├── SECURITY.md
+    ├── e2e
+    │   ├── eslint.config.cjs
+    │   ├── jest.config.ts
+    │   ├── project.json
+    │   ├── src
+    │   ├── tsconfig.json
+    │   └── tsconfig.spec.json
+    ├── eslint.config.cjs
     ├── jest.config.ts
     ├── jest.preset.js
-    ├── hire-lane.png
     ├── nx.json
     ├── package-lock.json
     ├── package.json
-    └── tsconfig.base.json
+    ├── project.json
+    ├── src
+    │   ├── assets
+    │   └── main.ts
+    ├── tsconfig.app.json
+    ├── tsconfig.json
+    └── tsconfig.spec.json
 ```
+
+### 📂 Project Index
+
+<details open>
+ <summary><b><code>HIRE-LANE/</code></b></summary>
+ <details> <!-- __root__ Submodule -->
+  <summary><b>__root__</b></summary>
+  <blockquote>
+   <table>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/tsconfig.spec.json'>tsconfig.spec.json</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/package-lock.json'>package-lock.json</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/tsconfig.json'>tsconfig.json</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/jest.config.ts'>jest.config.ts</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/project.json'>project.json</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/tsconfig.app.json'>tsconfig.app.json</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/eslint.config.cjs'>eslint.config.cjs</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/package.json'>package.json</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/nx.json'>nx.json</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/jest.preset.js'>jest.preset.js</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/Dockerfile'>Dockerfile</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   </table>
+  </blockquote>
+ </details>
+ <details> <!-- .github Submodule -->
+  <summary><b>.github</b></summary>
+  <blockquote>
+   <details>
+    <summary><b>workflows</b></summary>
+    <blockquote>
+     <table>
+     <tr>
+      <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/.github/workflows/codeql.yml'>codeql.yml</a></b></td>
+      <td><code>❯ REPLACE-ME</code></td>
+     </tr>
+     <tr>
+      <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/.github/workflows/ci.yml'>ci.yml</a></b></td>
+      <td><code>❯ REPLACE-ME</code></td>
+     </tr>
+     </table>
+    </blockquote>
+   </details>
+  </blockquote>
+ </details>
+ <details> <!-- src Submodule -->
+  <summary><b>src</b></summary>
+  <blockquote>
+   <table>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/src/main.ts'>main.ts</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   </table>
+  </blockquote>
+ </details>
+ <details> <!-- e2e Submodule -->
+  <summary><b>e2e</b></summary>
+  <blockquote>
+   <table>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/e2e/tsconfig.spec.json'>tsconfig.spec.json</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/e2e/tsconfig.json'>tsconfig.json</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/e2e/jest.config.ts'>jest.config.ts</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/e2e/project.json'>project.json</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   <tr>
+    <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/e2e/eslint.config.cjs'>eslint.config.cjs</a></b></td>
+    <td><code>❯ REPLACE-ME</code></td>
+   </tr>
+   </table>
+   <details>
+    <summary><b>src</b></summary>
+    <blockquote>
+     <details>
+      <summary><b>support</b></summary>
+      <blockquote>
+       <table>
+       <tr>
+        <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/e2e/src/support/global-setup.ts'>global-setup.ts</a></b></td>
+        <td><code>❯ REPLACE-ME</code></td>
+       </tr>
+       <tr>
+        <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/e2e/src/support/test-setup.ts'>test-setup.ts</a></b></td>
+        <td><code>❯ REPLACE-ME</code></td>
+       </tr>
+       <tr>
+        <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/e2e/src/support/global-teardown.ts'>global-teardown.ts</a></b></td>
+        <td><code>❯ REPLACE-ME</code></td>
+       </tr>
+       </table>
+      </blockquote>
+     </details>
+     <details>
+      <summary><b>server</b></summary>
+      <blockquote>
+       <table>
+       <tr>
+        <td><b><a href='https://github.com/the-berufegoru/hire-lane/blob/master/e2e/src/server/server.spec.ts'>server.spec.ts</a></b></td>
+        <td><code>❯ REPLACE-ME</code></td>
+       </tr>
+       </table>
+      </blockquote>
+     </details>
+    </blockquote>
+   </details>
+  </blockquote>
+ </details>
+</details>
 
 ---
 
-## 🧩 Modules
-
-<details closed><summary>Applications</summary>
-
-| Module                                                                                                  | Summary                                                                      |
-| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [Admin Module](https://github.com/the-berufegoru/hire-lane/blob/master/apps/admin)                     | <code>► Manages user permissions and admin settings.</code>                  |
-| [Application Module](https://github.com/the-berufegoru/hire-lane/blob/master/shared/tsconfig.lib.json) | <code>► Handles job applications and related workflows.</code>               |
-| [Authentication Module](https://github.com/the-berufegoru/hire-lane/blob/master/shared/tsconfig.json)  | <code>► Manages user authentication and session handling.</code>             |
-| [Candidate Module](https://github.com/the-berufegoru/hire-lane/blob/master/shared/tsconfig.spec.json)  | <code>► Manages candidate profiles, applications, and data.</code>           |
-| [Job Module](https://github.com/the-berufegoru/hire-lane/blob/master/shared/jest.config.ts)            | <code>► Handles job postings, searches, and related operations.</code>       |
-| [Job Finder Core](https://github.com/the-berufegoru/hire-lane/blob/master/shared/project.json)         | <code>► Core functionality and configurations for the Job Finder app.</code> |
-| [Recruiter Module](https://github.com/the-berufegoru/hire-lane/blob/master/shared/project.json)        | <code>► Manages recruiter profiles and job postings.</code>                  |
-
-</details>
-
 ## 🚀 Getting Started
 
-**_Requirements_**
+### ☑️ Prerequisites
 
-Ensure you have the following dependencies installed on your system:
+Before getting started with hire-lane, ensure your runtime environment meets the following requirements:
 
-- **TypeScript**: `version x.y.z`
+- **Programming Language:** TypeScript
+- **Package Manager:** Npm
+- **Container Runtime:** Docker
 
 ### ⚙️ Installation
+
+Install hire-lane using one of the following methods:
+
+**Build from source:**
 
 1. Clone the hire-lane repository:
 
 ```sh
-git clone https://github.com/the-berufegoru/hire-lane
+❯ git clone https://github.com/the-berufegoru/hire-lane
 ```
 
-2. Change to the project directory:
+2. Navigate to the project directory:
 
 ```sh
-cd hire-lane
+❯ cd hire-lane
 ```
 
-3. Install the dependencies:
+3. Install the project dependencies:
+
+**Using `npm`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
-npm install
+❯ npm install
 ```
 
-### 🤖 Running hire-lane
-
-Use the following command to run hire-lane:
+**Using `docker`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Docker-2CA5E0.svg?style={badge_style}&logo=docker&logoColor=white" />](https://www.docker.com/)
 
 ```sh
-npm run start:hire-lane or npm run start:<projectName>
+❯ docker build -t the-berufegoru/hire-lane .
 ```
 
-### 🧪 Tests
+### 🤖 Usage
 
-To execute tests, run:
+Run hire-lane using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/NPM-CB3837.svg?style=flat&logo=npm&logoColor=white
+" />](https://www.npm.com/)
 
 ```sh
-npm test
+❯ npm run start
+```
+
+**Using `docker`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Docker-2CA5E0.svg?style={badge_style}&logo=docker&logoColor=white" />](https://www.docker.com/)
+
+```sh
+❯ docker run -it {image_name}
+```
+
+### 🧪 Testing
+
+Run the test suite using the following command:
+**Using `jest`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Jest-C21325.svg?style=flat&logo=jest&logoColor=white" />](https://www.jest.com/)
+
+```sh
+❯ npm run test
 ```
 
 ---
 
-## 🛠 Project Roadmap
+## 📌 Project Roadmap
 
-- [ ] `► Database Creation`
-- [ ] `► Authentiation and Authorization`
-- [ ] `► Admin Profile`
-- [ ] `► Canddate Profile`
-- [ ] `► Recruiter Profile`
-- [ ] `► Job Service`
-- [ ] `► Application Service`
+- [x] **`Task 1`**: <strike>project-setup.</strike>
+- [x] **`Task 2`**: <strike>database-connection.</strike>
+- [ ] **`Task 3`** user-authentication.
 
 ---
 
-## 🤝 Contributing
+## 🔰 Contributing
 
-Contributions are welcome! Here are several ways you can contribute:
-
-- **[Submit Pull Requests](https://github.com/the-berufegoru/hire-lane/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/the-berufegoru/hire-lane/discussions)**: Share your insights, provide feedback, or ask questions.
-- **[Report Issues](https://github.com/the-berufegoru/hire-lane/issues)**: Submit bugs found or log feature requests for hire-lane.
+- **💬 [Join the Discussions](https://github.com/the-berufegoru/hire-lane/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/the-berufegoru/hire-lane/issues)**: Submit bugs found or log feature requests for the `hire-lane` project.
+- **💡 [Submit Pull Requests](https://github.com/the-berufegoru/hire-lane/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
-    <summary>Contributing Guidelines</summary>
+<summary>Contributing Guidelines</summary>
 
-1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
+1. **Fork the Repository**: Start by forking the project repository to your github account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
 
    ```sh
    git clone https://github.com/the-berufegoru/hire-lane
@@ -188,30 +348,37 @@ Contributions are welcome! Here are several ways you can contribute:
    git commit -m 'Implemented new feature x.'
    ```
 
-6. **Push to GitHub**: Push the changes to your forked repository.
+6. **Push to github**: Push the changes to your forked repository.
 
    ```sh
    git push origin new-feature-x
    ```
 
 7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
 
-Once your PR is reviewed and approved, it will be merged into the main branch.
+</details>
 
+<details closed>
+<summary>Contributor Graph</summary>
+<br>
+<p align="left">
+   <a href="https://github.com{/the-berufegoru/hire-lane/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=the-berufegoru/hire-lane">
+   </a>
+</p>
 </details>
 
 ---
 
-## 📄 License
+## 🎗 License
 
-This project is protected under the [MIT](LICENSE.md) License. For more details, refer to the [LICENSE](https://github.com/the-berufegoru/hire-lane?tab=MIT-1-ov-file#readme/) file.
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
-## 👏 Acknowledgments
+## 🙌 Acknowledgments
 
 - List any resources, contributors, inspiration, etc. here.
-
-[**Return**](#-quick-links)
 
 ---

@@ -1,14 +1,32 @@
-import express from 'express';
+/**
+ * Main entry point for the application.
+ * This file sets up the Express server, configures middlewares, and starts the server.
+ */
 
-const host = process.env.HOST ?? 'localhost';
-const port = process.env.PORT ? Number(process.env.PORT) : 3000;
+import express, { Application } from "express";
+import dotenv from "dotenv";
+import { configureMiddlewares } from "./middlewares";
+import { startServer } from "./server";
 
-const app = express();
+// Load environment variables from .env file
+const result = dotenv.config();
+if (result.error) {
+  throw result.error;
+}
 
-app.get('/', (req, res) => {
-  res.send({ message: 'Hello API' });
-});
+const app: Application = express();
 
-app.listen(port, host, () => {
-  console.log(`[ ready ] http://${host}:${port}`);
-});
+const PORT = Number(process.env.PORT) || 3000;
+
+/**
+ * Configures middlewares for the Express application.
+ * @param {Application} app - The Express application instance.
+ */
+configureMiddlewares(app);
+
+/**
+ * Starts the Express server.
+ * @param {Application} app - The Express application instance.
+ * @param {number} port - The port number on which the server will listen.
+ */
+startServer(app, PORT);
